@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 """index.py to connect to API"""
 from api.v1.views import app_views
@@ -24,6 +25,7 @@ def hbnbStatus():
 @app_views.route('/stats', strict_slashes=False)
 def hbnbStats():
     """hbnbStats"""
+    
     return_dict = {}
     for key, value in hbnbText.items():
         return_dict[key] = storage.count(value)
