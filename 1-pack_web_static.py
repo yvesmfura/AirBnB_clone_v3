@@ -5,7 +5,6 @@ from fabric import api
 from datetime import datetime
 import os
 
-
 def do_pack():
     """Function to create tarball of webstatic files from the web_static
     folder in Airbnb_v2.
