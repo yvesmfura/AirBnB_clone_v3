@@ -2,6 +2,7 @@
 # Script using bash to setup webservers for deployment of simple HTML
 # content
 
+
 apt-get update && \
 apt-get install -y nginx && \
 mkdir -p -m=755 /data/web_static/{releases/test,shared} || exit 0
