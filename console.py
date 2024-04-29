@@ -14,6 +14,7 @@ from models.user import User
 import shlex  # for splitting the line along spaces except in double quotes
 import re
 
+
 classes = {"Amenity": Amenity, "BaseModel": BaseModel, "City": City,
            "Place": Place, "Review": Review, "State": State, "User": User}
 
